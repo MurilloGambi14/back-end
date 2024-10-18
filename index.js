@@ -1,3 +1,5 @@
+// mongodb+srv://MurilloGambi14:1403@cluster0.fynvn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
 const express = require('express')
 const cors = require('cors')
 const app = express() //construindo uma aplicação express
