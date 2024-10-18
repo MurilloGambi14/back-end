@@ -13,6 +13,36 @@
 
     <div class="container mt-5">
         <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-4">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="tituloinput" placeholder="Titulo do Filme">
+                    <label for="tituloinput">Titulo do Filme</label>
+                </div>
+            </div>
+            <div class="row col-md-8 col-lg-4">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="sinopseinput" placeholder="Sinopse Filme">
+                    <label for="sinopseinput">Sinopse do Filme</label>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <button class="btn btn-outline-primary w-100" onclick="cadastrarfilme()">Cadastrar</button>
+            </div>
+            <div class="col-md-8">
+
+            </div>
+
+        </div>
+
+
+
+
+
+        <div class="row justify-content-center">
             <div class="col-md-8">
                 <table class="table table-striped table-hover text-center filmes">
                     <thead>
@@ -36,9 +66,8 @@
 
     <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous">
-    </script>
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+        </script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </body>
 
